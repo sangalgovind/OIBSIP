@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    color: white;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.top_navbar{
+ 
+    display: flex; 
+    margin-top: 1.5rem;
+    margin-left: 50%;
+    justify-content: space-around;
+}
+.logo{
+   height: 4rem;
+   width: 10rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+    color:white
+}
+.click_here{
+    margin-left: 4.5rem;
+    color: white;
+    margin-left: 7rem;
+}
+.click_here:hover{
+    color: aqua;
+}
+.active:hover{
+    color:rgb(181, 134, 134);
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1 a
+{
+    text-decoration: none;
+    color: white;
+  
+
+}
+.movies{
+    margin-left: 2rem;
+}
+.copyright{
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+.background{
+    background: url(./image/2o.png) ;
+  
+}
+footer{
+    padding: 2rem 0 1rem 0;
+    background-color: rgba(57, 6, 6, 0.288);
+}
